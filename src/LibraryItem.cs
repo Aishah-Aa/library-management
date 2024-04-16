@@ -10,7 +10,7 @@ namespace sda_onsite_2_csharp_library_management.src
        {
             Id = Guid.NewGuid();
             Title =  new title();
-            CreatedDate = createdDate DateTime.Now; 
+            CreatedDate = createdDate == null? DateTime.Now : createdDate;
        }
     }
 }

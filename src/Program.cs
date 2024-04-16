@@ -3,7 +3,7 @@ using sda_onsite_2_csharp_library_management.src;
 
 internal class Program
 {
-    Static void Main(string[] args)
+    static void Main(string[] args)
     {
         //create 3 classes : book: has id, title, created date
         //  user: id, created date, name
