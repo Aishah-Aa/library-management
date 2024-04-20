@@ -1,9 +1,12 @@
 namespace sda_onsite_2_csharp_library_management.src
 {
-    public class User : LibraryItem
+    public class User : BaseEntity
     {
-        public User(string name, DateTime createdDate = null)
+        public string Name { get; set; }
+        public User(string name, DateTime? createdAt = null) : base(createdAt)
         {
+            Name = name;
+
         }
     }
 }
